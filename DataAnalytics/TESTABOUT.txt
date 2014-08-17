@@ -1,0 +1,4 @@
+filter, formulars, pivot, diagrams
+
+frequencies histograms
+--> formular to create histograms
