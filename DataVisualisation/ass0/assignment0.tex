@@ -1,0 +1,64 @@
+\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amsfonts,amssymb,amscd,amsthm,xspace}
+\usepackage[ngerman]{babel}
+\usepackage{listingsutf8}
+\usepackage{color}
+\usepackage{url}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{pst-tree}
+
+\geometry{a4paper, left=2cm,right=2cm,top=2cm,bottom=2cm}
+
+\newcommand{\Authors}{Robert Fels - Rollnumber: EX2014005}
+\title{Data Visualization  - Assignment 0}
+\author{\Authors}
+\date{\today}
+
+\newcommand{\changefont}[3]{\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+
+\renewcommand{\thesection}{Task \arabic{section}:}
+\renewcommand{\theenumi}{(\alph{enumi})}
+\renewcommand{\theenumii}{(\roman{enumii}}
+
+\definecolor{lgray}{gray}{0.95}
+\definecolor{purple}{rgb}{0.498,0,0.3333}
+\definecolor{identifier}{rgb}{0,0,0.1}
+\definecolor{string}{rgb}{0.192,0,1}
+\definecolor{comment}{rgb}{0.25,0.5,0.37}
+
+\pagestyle{myheadings}
+\oddsidemargin\oddsidemargin
+\markright{\Authors}
+
+\lstset{
+	tabsize=4, 
+	frame=tlrb, 
+	basicstyle=\footnotesize\changefont{pcr}{m}{n},
+	breaklines=true,
+	numbers=left,
+	emphstyle=\textit, 
+	language=Java,
+	keywordstyle=\color{purple}\textbf, 
+	identifierstyle=\color{identifier},
+	stringstyle=\color{string},
+	backgroundcolor=\color{lgray},
+	showstringspaces=false,
+	commentstyle=\color{comment},
+	extendedchars=true,
+	inputencoding=utf8/latin1
+}
+\psset{nodesep=2pt,levelsep=2em,treesep=2em}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+My name is Robert Fels and I'm from Potsdam, Germany. In 2007 I began my studies in computer science at the \textit{Freie Universität Berlin (FU) } and I finished my B.Sc. in 2012. My thesis topic was about offline route planning on mobile devices and extracting various traffic signs out of the OpenStreetMap \footnote{For more information see: \url{www.openstreetmap.org} } which can influence the quality of the routes a vehicle should take. During my bachelor studies I've been on an student exchange once already. It took place in Uppsala, Sweden and I took computer science courses there and learned the Swedish language. After my graduation I decided to work. At first I worked in a company which was developing various programs written in Java only. One of the projects was a huge meteorology framework to visualize a lot of meteorologic data from all over the world. My task was rather to extract and process the data than in visualizing it. After 1 year I was working in a company which was working mainly with embedded systems for ships. The programming language I was using was C++ and the Qt-framework to develop graphical user interfaces and various displays for ships. This year in April I decided to start my masters in computer science at the \textit{FU Berlin} and began another student exchange in August 2014. In terms of knowledge of visualization I heard a Computer Graphics course in Uppsala and gained some knowledge in my companies I worked before. But the knowledge in visualization is based on theoretical knowledge. I haven't used visualization tools in an extensive practical manner. That's what I expect to get from this course - getting to know more about visualization techniques and apply these techniques thoroughly. 
+
+
+\end{document}
