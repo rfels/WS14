@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.16)  18 AUG 2014 00:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.16)  20 AUG 2014 04:38
 entering extended mode
 **assignment1.tex
 
@@ -234,16 +234,17 @@ Package: babel 2008/07/08 v3.8m The Babel package
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\ngermanb.ldf"
-Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count101
 \U@D=\dimen115
 )
-\l@naustrian = a dialect from \language\l@ngerman 
-Package babel Info: Making " an active character on input line 92.
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\listingsutf8.sty"
 Package: listingsutf8 2011/11/10 v1.2 Allow UTF-8 in listings input (HO)
@@ -683,7 +684,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [1
+)
+<4BitDivider.png, id=1, 1074.0125pt x 1212.53pt>
+File: 4BitDivider.png Graphic file (type png)
+ <use 4BitDivider.png>
+Package pdftex.def Info: 4BitDivider.png used on input line 71.
+(pdftex.def)             Requested size: 483.69687pt x 546.0775pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -699,34 +710,50 @@ Non-PDF special ignored!
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
+ [2 <C:/Users/aaqib/Desktop/Robert/uni/git/WS14/EmbeddedSystems/ass1/4BitDivide
+r.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+[3]
 (C:\Users\aaqib\Desktop\Robert\uni\git\WS14\EmbeddedSystems\ass1\assignment1.au
 x) ) 
 Here is how much of TeX's memory you used:
- 14550 strings out of 493921
- 236862 string characters out of 3147282
- 387442 words of memory out of 3000000
- 17624 multiletter control sequences out of 15000+200000
- 13015 words of font info for 36 fonts, out of 3000000 for 9000
+ 14538 strings out of 493921
+ 236758 string characters out of 3147282
+ 386598 words of memory out of 3000000
+ 17606 multiletter control sequences out of 15000+200000
+ 14520 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 48i,8n,72p,713b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,9n,72p,713b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\aaqib\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm0700.pk> <C:\Users\aaqib\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecrm1000.pk> <C:\Users\aaqib\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\aaqib\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\aaqib\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on assignment1.pdf (1 page, 132909 bytes).
+0\ecti1000.pk> <C:\Users\aaqib\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecsl1000.pk> <C:\Users\aaqib\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\aaqib\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\aaqib\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\aaqib\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\aaqi
+b\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on assignment1.pdf (3 pages, 187603 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
+ 284 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
